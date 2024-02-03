@@ -15,7 +15,7 @@ services:
     volumes:
       - postgres-db:/var/lib/postgresql/data
     environment:
-      POSTGRES_PASSWORD: "toor"
+      POSTGRES_PASSWORD: "example"
   redis:
     image: redis
   web:
