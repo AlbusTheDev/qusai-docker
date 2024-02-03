@@ -17,7 +17,7 @@ redisClient.on('connect', () => console.log('Redis Client Connected Successfully
 redisClient.connect();
 
 const DB_USER = 'postgres';
-const DB_PASS = 'example';
+const DB_PASS = 'toor';
 const DB_PORT = 5432;
 const DB_HOST = 'postgres';
 
