@@ -33,7 +33,7 @@ client
 
 app.get('/', (req, res) => {
     redisClient.set('products', 'products...');
-    res.send('<h1>Hello World! Welcome to my website!</h1><br><h2>Main Page</h2>');
+    res.send('<h1>Hello World! Welcome to my website!</h1><br><center><h2>Main Page</h2></center>');
 });
 
 app.get('/data', async (req, res) => {
